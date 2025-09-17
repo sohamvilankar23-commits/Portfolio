@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soham Vilankar - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Soham Vilankar</h1>
+            <p class="subtitle">Full Stack Developer & AI-DS Student</p>
+        </header>
+
+        <main class="main-content">
+            <nav class="nav-tabs">
+                <button class="nav-tab active" onclick="showTab('about')">About</button>
+                <button class="nav-tab" onclick="showTab('skills')">Skills</button>
+                <button class="nav-tab" onclick="showTab('education')">Education</button>
+                <button class="nav-tab" onclick="showTab('projects')">Projects</button>
+            </nav>
+
+            <div class="content">
+                <!-- About Tab -->
+                <div id="about" class="tab-content active">
+                    <div class="section-grid">
+                        <div class="profile-card">
+                            <div class="profile-img">SV</div>
+                            <h3>Soham Vilankar</h3>
+                            <p>Student & Developer</p>
+                            <div class="contact-info">
+                                <div class="contact-item">📞 +91 7718025041</div>
+                                <div class="contact-item">✉️ sohamvilankar23@gmail.com</div>
+                                <div class="contact-item">📍 Kalyan, Mumbai</div>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="section-title">About Me</h2>
+                            <p class="about-text">
+                                Enthusiastic coder and aspiring full-stack developer with hands-on experience in modern web technologies. I'm passionate about writing clean, efficient code and solving complex algorithmic problems while building projects that seamlessly blend functionality with outstanding usability.
+                            </p>
+                            <p class="about-text">
+                                Currently pursuing B.Tech in AI-DS at VESIT, I'm eager to learn new technologies, adapt to emerging trends, and contribute meaningfully to innovative development teams. My goal is to create impactful digital solutions that make a difference.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Tab -->
+                <div id="skills" class="tab-content">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <h3>Flutter Development</h3>
+                            <p>Mobile app development with cross-platform capabilities</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Web Development</h3>
+                            <p>Full-stack web applications with modern frameworks</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>React</h3>
+                            <p>Building dynamic and interactive user interfaces</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Node.js</h3>
+                            <p>Server-side JavaScript development and APIs</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Firebase</h3>
+                            <p>Backend services, authentication, and real-time databases</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Languages</h3>
+                            <p>English (Fluent), Hindi (Native)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Tab -->
+                <div id="education" class="tab-content">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education-item">
+                        <div class="education-title">Bachelor of Technology - AI & Data Science</div>
+                        <div class="education-subtitle">VESIT (Vivekanand Education Society's Institute of Technology)</div>
+                        <div class="education-subtitle">2023 - 2027</div>
+                        <p>Pursuing comprehensive education in Artificial Intelligence and Data Science, focusing on machine learning, data analysis, and modern software development practices.</p>
+                    </div>
+                </div>
+
+                <!-- Projects Tab -->
+                <div id="projects" class="tab-content">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <div class="project-title">Personal Resume Website</div>
+                                <div class="project-tech">HTML • CSS • JavaScript</div>
+                            </div>
+                            <div class="project-body">
+                                <p class="project-description">
+                                    A modern, responsive portfolio website showcasing my skills, education, and projects with an interactive design and smooth animations.
+                                </p>
+                                <ul class="project-features">
+                                    <li>Responsive design for all devices</li>
+                                    <li>Interactive navigation with smooth transitions</li>
+                                    <li>Modern gradient design and animations</li>
+                                    <li>Clean, professional layout</li>
+                                    <li>Optimized for performance</li>
+                                </ul>
+                                <a href="#" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
