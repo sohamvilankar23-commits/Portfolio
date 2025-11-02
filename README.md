@@ -41,7 +41,7 @@ resume-website/
 - React
 - Node.js
 - Firebase
-- Languages (English, Hindi)
+- Languages (English, Hindi, Marathi)
 
 ### Education
 - B.Tech in AI & Data Science
